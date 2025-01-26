@@ -16,7 +16,7 @@ increaseBtn.addEventListener("click", () => {
 eksiBtn.addEventListener("click", () => {
     count--;
     if (count === -1) {
-        countDisplay.textContent = "güzellik değer 0'ın altında olamaz!";
+        alert("güzellik değer 0'ın altında olamaz!");
         count = 0; // Sayaç sıfırlanıyor
         setTimeout(() => {
             countDisplay.textContent = count; // Mesaj yerine tekrar 0 gösterir
