@@ -13,6 +13,22 @@ increaseBtn.addEventListener("click", () => {
   countDisplay.textContent = count;
 });
 
+if(count=== 22){
+  alert("tanışma ve sevgililik yılımız 💖")
+}
+
+if(count=== 29){
+  alert("tanışma günümüz 💖")
+}
+
+if(count=== 30){
+  alert("karı koca olma günümüz 💖")
+}
+
+if(count=== 8){
+  alert("tanışma ve karı koca olma ayımız 💖")
+}
+
 eksiBtn.addEventListener("click", () => {
     count--;
     if (count === -1) {
