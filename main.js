@@ -15,6 +15,9 @@ increaseBtn.addEventListener("click", () => {
 
 eksiBtn.addEventListener("click", () => {
     count--;
+    if(count=== -1){
+        count = 0;
+    }
     countDisplay.textContent = count;
 })
 
@@ -23,3 +26,4 @@ resetBtn.addEventListener("click", () => {
   count = 0;
   countDisplay.textContent = count;
 });
+
