@@ -9,10 +9,10 @@ const eksiBtn = document.getElementById("eksi-btn");
 
 // Özel sayılar için mesajlar
 const specialMessages = {
-  22: "tanışma ve sevgililik yılımız 💖",
-  29: "tanışma günümüz 💖",
-  30: "karı koca olma günümüz 💖",
-  8: "tanışma ve karı koca olma ayımız 💖"
+  22: "tanışma yılı 💖",
+  29: "tanışma günü 💖",
+  30: "sevgililik günü 💖",
+  8: "bizim ayımız 💖"
 };
 
 // Zikir sayısını artıran işlev
