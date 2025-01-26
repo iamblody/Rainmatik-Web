@@ -15,11 +15,16 @@ increaseBtn.addEventListener("click", () => {
 
 eksiBtn.addEventListener("click", () => {
     count--;
-    if(count=== -1){
-        count = 0;
+    if (count === -1) {
+        countDisplay.textContent = "güzellik değer 0'ın altında olamaz!";
+        count = 0; // Sayaç sıfırlanıyor
+        setTimeout(() => {
+            countDisplay.textContent = count; // Mesaj yerine tekrar 0 gösterir
+        }, 1000); // 1 saniye sonra geri dön
+    } else {
+        countDisplay.textContent = count;
     }
-    countDisplay.textContent = count;
-})
+});
 
 // Zikir sayısını sıfırlayan işlev
 resetBtn.addEventListener("click", () => {
