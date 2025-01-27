@@ -12,7 +12,8 @@ const specialMessages = {
   22: "tanışma yılı 💖",
   29: "tanışma günü 💖",
   30: "sevgililik günü 💖",
-  8: "bizim ayımız 💖"
+  8: "bizim ayımız 💖",
+  14: "first date 💖"
 };
 
 // Zikir sayısını artıran işlev
